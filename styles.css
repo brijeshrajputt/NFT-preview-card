@@ -1,0 +1,107 @@
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: hsl(217, 54%, 11%);
+  text-align: left;
+}
+
+main {
+  width: 300px;
+  height: 550px;
+  background-color: hsl(216, 50%, 16%);
+  padding: 20px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 13px;
+}
+
+img.equilibrum {
+  width: 300px;
+  height: auto;
+  border-radius: 13px;
+}
+
+.view-img:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+/* lets design the middle hover effect such that on hover it will display both icon and color*/
+.view-img {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 20px;
+  border-radius: 13px;
+  background: hsl(178, 100%, 50%);
+  opacity: 0;
+}
+
+/* lets design the icon which we wish to place on hover*/
+.view-icon {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 130px; /* since the img is of 300px/300px, therefore, to center the view-icon, 300-40=260/2=130px*/
+  left: 130px;
+  color: white;
+}
+
+h3 {
+  color: hsl(0, 0%, 100%);
+}
+
+h3:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+.line {
+  color: hsl(215, 51%, 70%)
+}
+
+.eth {
+  color: hsl(178, 100%, 50%);
+  display: inline-block;
+}
+
+.day {
+  color: hsl(215, 51%, 70%);
+  display: inline-block;
+  position: absolute;
+  right: 20px;
+}
+
+.icon {
+  width: auto;
+  height: 16px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid hsl(215, 32%, 27%);
+  margin-bottom: 10px;
+}
+
+img.avatar {
+  width: 30px;
+  height: auto;
+  float: left;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 100%
+}
+
+.creator {
+  color: hsl(215, 51%, 70%);
+  margin: 17px 0 0 45px;
+}
+
+.Jules {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
+
+.Jules:hover {
+  color: hsl(178, 100%, 50%);
+}
